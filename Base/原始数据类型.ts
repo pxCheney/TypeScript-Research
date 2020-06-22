@@ -25,11 +25,17 @@
 // 4. null 和 undefined
 // undefined 和 null 是所有类型的子类型。也就是说 undefined 类型的变量，可以赋值给 number 类型的变量：
 // 当你指定了--strictNullChecks标记，null和undefined只能赋值给void和它们各自。
-let n: null = null
-let u: undefined = undefined
+// let n: null = null
+// let u: undefined = undefined
 
 // let num: number = undefined // 开启strictNullChecks后报错
-// console.log('null-undefined', num, n, u)
+// let u: undefined = undefined
+// let v: void = u
+// console.log('null-undefined', u, v)
 
 
 // 5. 空值
+// let v: void;
+
+// 6. 对象类型
+let o: object = {}
